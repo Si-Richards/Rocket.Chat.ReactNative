@@ -245,8 +245,8 @@ commands:
       - persist_to_workspace:
           root: .
           paths:
-            - ios/*.ipa
-            - ios/*.zip
+            - .
+            - .
 
   upload-to-google-play-beta:
     description: "Upload to Google Play beta"
